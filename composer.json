@@ -1,0 +1,20 @@
+{
+    "name": "alsciende/make-registry-bundle",
+    "description": "Symfony Maker Bundle extension to create Registry for tagged Services",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alsciende\\MakeRegistryBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alsciende",
+            "email": "alsciende@icloud.com"
+        }
+    ],
+    "require": {
+        "symfony/maker-bundle": "^1.55"
+    }
+}

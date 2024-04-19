@@ -1,0 +1,5 @@
+The <info>%command.name%</info> command generates a new registry and interface:
+
+<info>php %command.full_name% BaseName</info>
+
+If the argument is missing, the command will ask for the base service name interactively.

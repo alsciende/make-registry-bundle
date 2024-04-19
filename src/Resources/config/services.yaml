@@ -1,0 +1,5 @@
+services:
+  Alsciende\MakeRegistryBundle\Maker\MakeRegistry:
+    tags: ['maker.command']
+    arguments:
+      $generator: '@maker.generator'
